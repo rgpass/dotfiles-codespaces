@@ -1,15 +1,11 @@
 alias ff="bin/toggle-feature-flag enable copilot-custom-models"
 alias os="script/setup-codespaces-orca"
-alias osd="script/setup-codespaces-orca -d"
 alias or="cd /workspaces/orca ; script/bootstrap; script/run;"
-alias orca="os && or"
-alias orcad="osd && or"
+alias orca="os ; or"
 alias co="script/setup-copilot"
 alias rs="script/server"
 
-alias s1="ff"
-alias s2="co"
-alias s3="orca"
-alias s4="rs"
+alias rss="ff ; co"
+alias rsr="rs"
 
 alias u="echo cfbbiz0org1-admin"
