@@ -11,3 +11,5 @@ alias s1="ff"
 alias s2="co"
 alias s3="orca"
 alias s4="rs"
+
+alias u="echo cfbbiz0org1-admin"
