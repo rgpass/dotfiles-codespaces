@@ -6,4 +6,4 @@ cp /workspaces/.codespaces/.persistedshare/dotfiles/aliases.zsh /home/vscode/.oh
 # Set default shell to zsh
 # sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
 
-zsh
+# zsh
