@@ -18,3 +18,16 @@ fix_path() {
   # Run when npm not found
   export PATH="/workspaces/github/vendor/node:$PATH:/workspaces/insights-dataplatform/.dotnet:/workspaces/actions/actions-dotnet/.dotnet:/workspaces/github/bin:/workspaces/actions/actions-codespaces/script"
 }
+
+os1() {
+  script/setup-codespaces-orca
+}
+
+os2() {
+  cd /workspaces/orca
+  script/bootstrap
+}
+
+os3() {
+  DISABLE_RATE_LIMITING=true script/run
+}
