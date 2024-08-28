@@ -31,3 +31,6 @@ os2() {
 os3() {
   DISABLE_RATE_LIMITING=true script/run
 }
+
+# Warpify the SSH sheel
+printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
