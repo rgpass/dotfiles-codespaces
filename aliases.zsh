@@ -33,4 +33,6 @@ os3() {
 }
 
 # Warpify the SSH sheel
-printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
+warpify() {
+  printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
+}
