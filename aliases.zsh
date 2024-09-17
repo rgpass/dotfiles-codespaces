@@ -14,6 +14,8 @@ alias repos="sudo chmod +t /tmp"
 
 alias minitest="bin/rails test packages/orca/test/"
 
+alias chat="bin/rails runner 'Apps::Privileged::CopilotChat.seed_database!'"
+
 fix_path() {
   # Run when npm not found
   export PATH="/workspaces/github/vendor/node:$PATH:/workspaces/insights-dataplatform/.dotnet:/workspaces/actions/actions-dotnet/.dotnet:/workspaces/github/bin:/workspaces/actions/actions-codespaces/script"
